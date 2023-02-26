@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Colour_Revenue__c</fullName>
+    <fullName>Colour_Flag__c</fullName>
     <externalId>false</externalId>
-    <formula>IMAGE(&quot;https://mcdn.wallpapersafari.com/medium/11/79/PaHE2U.jpg&quot;, &quot;orange&quot;, 30, 30)</formula>
-    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Colour Revenue</label>
+    <label>Colour Flag</label>
+    <length>10</length>
     <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>

@@ -37,6 +37,10 @@
                 <behavior>Readonly</behavior>
                 <field>Colour_Revenue__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Colour_Flag__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
