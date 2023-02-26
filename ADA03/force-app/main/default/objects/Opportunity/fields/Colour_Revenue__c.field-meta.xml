@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Colour_Revenue__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(!ISNULL(Annual_Revenue__c) , IF( Annual_Revenue__c &lt;= 10000, IMAGE(&quot;/img/samples/color_red.gif&quot;, &quot;red&quot;, 30, 30), 
+ IF( AND(Annual_Revenue__c &gt; 10000, Annual_Revenue__c &lt;= 30000)  , IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;yellow&quot;, 30, 30),
+ IF(Annual_Revenue__c &gt; 30000, IMAGE(&quot;/img/samples/color_green.gif&quot;, &quot;green&quot;, 30, 30), IMAGE(&quot;/img/samples/color_blue.gif&quot;, &quot;blue&quot;, 30, 30)))),IMAGE(&quot;/img/samples/color_blue.gif&quot;, &quot;blue&quot;, 30, 30))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Colour Revenue</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
