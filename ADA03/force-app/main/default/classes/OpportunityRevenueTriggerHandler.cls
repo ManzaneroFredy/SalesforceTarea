@@ -11,6 +11,7 @@ public with sharing class OpportunityRevenueTriggerHandler {
                         opp.Colour_Flag__c = 'YELLOW';
                     }else{
                         opp.Colour_Flag__c = 'GREEN';
+                        
                     }
                 }
             }
